@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+
+  #main-container{
+      display: flex;
+  }
+
+  header{
+      background-color: rgb(42, 42, 204);
+      color: white;
+      text-align: center;
+      height: 40px;
+  }
+
+  #city-search{
+      background-color: rgb(69, 144, 172);
+      margin: 5px;
+      padding: 5px;
+      padding-top: 0;
+      height: 125px;
+      
+  }
+
+  #sub-container{
+      background-color:  rgb(69, 144, 172);
+      margin: 5px;
+      padding: 5px;
+      height: 100%;
+      width: 100%;
+
+  }
+
+  #current{
+      border: solid;
+      height:auto;
+      padding: 10px;
+
+  }
+
+  #forecast{
+      display: flex;
+  }
+
+  .days{
+      border: solid;
+      background-color: white;
+      margin: 10px;
+  }
+
+
+
+
+
+
+ 
+

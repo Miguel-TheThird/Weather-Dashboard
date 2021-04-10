@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+</head>
+<body>
+    <header><h1>Weather Dashboard</h1></header>
+    <div id="main-container">
+
+    <div id="city-search">
+        <P>Search a City:</P>
+        <input id="text" type="text" placeholder="Perth">
+        <hr>
+        <button id="btn">Search</button>
+    </div>
+    
+    <div id="sub-container">
+
+        <div id="current">
+        <p>City:<span id="city"></span></p>
+        <p>Temperature:<span id="temp"></span></p>
+        <p>Wind:<span id="wind"></span></p>
+        <p>Humidity:<span id="hum"></span></p>
+        </div>
+
+        <h3>5 Day Forecast:</h3>
+
+        <div id="forecast">
+            <div class="days">Mon</div>
+            <div class="days">Tue</div>
+            <div class="days">Wed</div>
+            <div class="days">Thu</div>
+            <div class="days">Fri</div>
+        </div>
+    </div>
+
+    </div>
+
+    
+
+
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>

@@ -4,17 +4,19 @@
 
   #main-container{
       display: flex;
+      flex-direction: column;
   }
 
   header{
-      background-color: rgb(42, 42, 204);
+      background-color: #022140;
       color: white;
       text-align: center;
       height: 40px;
   }
 
   #city-search{
-      background-color: rgb(69, 144, 172);
+      background-color: #265077;
+      color: white;
       margin: 5px;
       padding: 5px;
       padding-top: 0;
@@ -23,7 +25,8 @@
   }
 
   #sub-container{
-      background-color:  rgb(69, 144, 172);
+      background-color:  #265077;
+      color: white;
       margin: 5px;
       padding: 5px;
       height: 100%;
@@ -32,7 +35,9 @@
   }
 
   #current{
+      background-color: #1E4258;
       border: solid;
+      border-width: 1px;
       height:auto;
       padding: 10px;
 
@@ -43,11 +48,18 @@
   }
 
   .days{
+      width: 85px;
       border: solid;
-      background-color: white;
+      border-width: 1px;
+      background-color: #1E4258;
       margin: 10px;
   }
 
+  .colorSpan{
+      color: black;
+  }
+
+  
 
 
 
